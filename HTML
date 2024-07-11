@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Book Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Book Title</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#details">Book Details</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h2>Welcome to My Book</h2>
+            <p>Discover an amazing story and immerse yourself in a world of adventure.</p>
+            <a href="#details" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <section id="details" class="details-section">
+        <div class="container">
+            <h2>Book Details</h2>
+            <p>Read an engaging synopsis and see a preview of the first few pages.</p>
+            <div class="book-preview">
+                <img src="book-cover.jpg" alt="Book Cover">
+                <div class="book-info">
+                    <h3>Synopsis</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel urna quis nunc tempor dictum.</p>
+                    <a href="#" class="cta-button">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews-section">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <p>See what others are saying about the book.</p>
+            <div class="reviews">
+                <div class="review">
+                    <h3>Reviewer Name</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <!-- Add more reviews as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About the Author</h2>
+            <p>Learn more about the author and their background.</p>
+            <img src="author-photo.jpg" alt="Author Photo">
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Book Title. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
