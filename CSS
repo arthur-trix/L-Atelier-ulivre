@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero-section {
+    background: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.cta-button {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.details-section,
+.reviews-section,
+.about-section,
+.contact-section {
+    padding: 40px 0;
+}
+
+.book-preview {
+    display: flex;
+    align-items: center;
+}
+
+.book-preview img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.book-info {
+    max-width: 600px;
+}
+
+.reviews .review {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
